@@ -8,10 +8,10 @@ module.exports = {
       'sans': ['poppins'], 
     },
     extend: {
-      color: {
-        'blue': "#B2D234",
-        'green': "#B2D234",
-      }
+        colors: {
+          'regal-blue': '#60A0D8',
+          'regal-green':'#B2D234'
+        }
     },
   },
   plugins: [],
