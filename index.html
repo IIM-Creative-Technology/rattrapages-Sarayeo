@@ -6,26 +6,31 @@
   <link href="./dist/output.css" rel="stylesheet">
 </head>
 <body >
-  <header class="text-white text-center relative items-center flex flex-col w-full h-full ">
+  <header class="text-white text-center flex flex-col w-full h-full bg-transparent absolute mt-6">
     <div class="md:flex hidden w-11/12 mx-auto justify-between">
-      <nav class=" inline-flex  h-[5vh] w-full justify-between flex items-center space-x-5 mt-small ml-middlemedium md:inline-flex sm:hidden" >
-        <div class="flex flex-row w-1/2 items-center">
-          <imgnav />
-          <div class="flex flex-row justify-between w-11/12 items-center">
+      <nav class=" inline-flex  h-[7vh] w-full justify-between flex items-center space-x-5 mt-small ml-middlemedium md:inline-flex sm:hidden" >
+        <div class="flex flex-row w-1/2 ">
+          <div class="w-48 h-16 md: ">
+            <img class="" src="./assets/mangoo.png" alt="fond">
+          </div>
+          <div class="flex flex-row justify-between w-6/12 items-center">
             <ul class ="pl-12"><a>accueil</a></ul>
             <ul><a>Qui sommes nous ?</a></ul>
             <ul><a>Menu </a></ul>
             <ul><a>contact</a></ul>
+            <ul><a><button class="bg-[#FFFFFF]">
+                     Commander
+                    </button>
+                  </a>
+            </ul>
           </div>
-        </div>
-        <div class="flex justify-end items-center w-1/2">
-          <Buttons class="bg-teal-100/40 mt-small ml-middlesmall md:inline-flex sm:hidden text-white" text="06 74 49 03 21" />
-          <Buttons class="ml-5 bg-amber-50 mt-small text-purple-600 md:inline-flex sm:hidden" text="Je prend contact"/>
         </div>
       </nav>
     </div>
     <div class="md:hidden flex ">
-      <h1 class=" text-3xl mt-10 relative right-16 "> skillsday</h1>
+      <div class="w-14 h-4 ">
+        <img src="./assets/mangoo.png" alt="fond">
+      </div>
       <div class="space-y-2  mt-10 relative left-16 ">
         <span class="block w-9 h-1 bg-white"></span>
         <span class="block w-9 h-1 bg-white"></span>
@@ -33,43 +38,43 @@
       </div>
     </div>
 </header>
-      <section id="acceuil" class="flex flex-col bg-[url('./assets/header.png')] bg-cover h-screen w-full">
-
-      <!-- <img class="w-screen h-full md:h-screen top-0 -z-2" src="./assets/header.png" alt="fond"> -->
-      <div>
-        <h1>
-
-        </h1>
-        <h2>
-
-        </h2>
-
-      </div>
-    </section>
-    <section id="identitya" class="" >
-      <!-- <img class="w-screen h-full md:h-screen top-0 -z-10" src="./assets/Repeat_grid_1.png" alt="fond"> -->
-      <div class="absolute top-3 -z-2">
-        <div>
-          <h2>
-            Une Salade sur mesure
-          </h2>
-         <p>
-          MONGOO vous permet de composer votre salade selon vos envies et vos goûts.
-         </p>
-         <p>
-          Une quarantaine d'ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien.
-         </p>
-         <p>
-          Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ? 
-         </p>
-         <button>
-          En savoir +
-         </button>
-        </div>
-        <div></div>
-      </div>
-
-    </section>
+<section id="acceuil" class="flex flex-col w-full h-screen  bg-cover bg-linear-gradient(to_right_bottom,rgba(96,160,216,0.62),rgba(178,210,52,0.62)) " style="background-image: url('./assets/header.png');">
+    <div class="bg-red-800 mx-auto w-96 h-72">
+      <h1 class="text-white">
+        mongoo
+      </h1>
+      <h2 class="text-white">
+        c'est frais pour vous
+      </h2>
+    </div>
+    <div class="flex-row flex justify-end">
+    <img src="./assets/Icon awesome-facebook-square.png" alt="facebook">
+    <img src="./assets/Icon awesome-twitter-square.png" alt="twitter">
+    <img src="./assets/Icon awesome-instagram.png" alt="instagram">
+  </div>
+</section>
+<section id="identitya" class="flex flex-col w-full h-screen mt-8 items-center bg-cover bg-center " style="background-image: url('./assets/Repeat_grid_1.png');">
+  <div class="">
+    <div>
+      <h2>
+        Une Salade sur mesure
+      </h2>
+     <p>
+      MONGOO vous permet de composer votre salade selon vos envies et vos goûts.
+     </p>
+     <p>
+      Une quarantaine d'ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien.
+     </p>
+     <p>
+      Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ? 
+     </p>
+     <button>
+      En savoir +
+     </button>
+    </div>
+    <div></div>
+  </div>
+</section>
     <section id="identityb" >
       <!-- <img class="w-full h-auto md:h-screen top-0 -z-2" src="./assets/ismael-trevino-NDyuR4Huig8-unsplash.png" alt="fond"> -->
 
