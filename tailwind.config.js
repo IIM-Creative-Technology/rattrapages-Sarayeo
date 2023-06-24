@@ -5,12 +5,14 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['poppins'], 
+      'poppins': ['Poppins', 'sans-serif']
     },
     extend: {
         colors: {
           'regal-blue': '#60A0D8',
-          'regal-green':'#B2D234'
+          'regal-green':'#B2D234',
+          'white':'#FFFFFF',
+
         }
     },
   },
