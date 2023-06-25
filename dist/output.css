@@ -1411,6 +1411,14 @@ video {
   color: px;
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
+.decoration-solid {
+  text-decoration-style: solid;
+}
+
 .opacity-\[65\%\] {
   opacity: 65%;
 }
