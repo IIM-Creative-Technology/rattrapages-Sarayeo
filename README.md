@@ -19,15 +19,16 @@ npx tailwindcss init
 ```
 Configurer le fichier tailwind.config.js avec les lignes suivantes :
 lignes :
-  ``` module.exports = {
+``` module.exports = {
         content: ["./src/**/*.{html,js}"],
             theme: {
             extend: {},
          },
         plugins: [],
-    }```
+    }
+```
 Configurer le fichier postcss.config.js avec les lignes suivantes :
-  ``` module.exports = {
+``` module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
@@ -35,15 +36,16 @@ Configurer le fichier postcss.config.js avec les lignes suivantes :
 }
 ```   
 Créer un dossier src et y ajouter un fichier style.css contenant les lignes suivantes pour importer Tailwind CSS :
-  ``` @tailwind base;
+``` @tailwind base;
       @tailwind components;
       @tailwind utilities;
 
-  ```
+```
 Enfin, lancer la commande suivante pour générer le bon fichier CSS dans mon cas, qui sera ensuite lié à mon HTML :
-  ``` npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
-  ```
+``` 
+    npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
+```
 
 
 Cette commande permet également de compiler le style sans utiliser de serveur.
